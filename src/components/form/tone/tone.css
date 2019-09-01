@@ -3,12 +3,12 @@
 }
 
 .tone__heading {
-  content: '3';
+  content: "3";
   margin-left: 100px;
 }
 
 .tone__heading:before {
-  content: '3';
+  content: "3";
 }
 
 .form__input-wrapper {
@@ -36,18 +36,17 @@
 }
 
 .tone__input-label--1::before {
-  content: '\f086';
+  content: "\f086";
 }
 
 .tone__input-label--2::before {
-  content: '\f0f2';
+  content: "\f0f2";
 }
 
 .tone__input-label--3::before {
-  content: '\f0a1';
+  content: "\f0a1";
 }
 
-.hide-input
-{
+.hide-input {
   display: none;
 }

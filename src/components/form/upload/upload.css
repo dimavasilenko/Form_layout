@@ -11,7 +11,7 @@
 }
 
 .upload__heading:before {
-  content: '1';
+  content: "1";
 }
 
 .upload__subtitle {
@@ -29,7 +29,7 @@
 }
 
 .upload__input-label:before {
-  content: '\f382';
+  content: "\f382";
 }
 
 .upload__input-wrapper {
@@ -53,21 +53,19 @@
   font-weight: normal;
 }
 
-input:checked+.primary-border:after
-{
+input:checked + .primary-border:after {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   width: 40px;
   height: 40px;
   background: url(img/check-mark.svg);
   top: -15px;
   right: -3px;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
   z-index: 5;
 }
 
-input:checked+.primary-border {
+input:checked + .primary-border {
   border: 5px solid #76a7e1;
 }
-

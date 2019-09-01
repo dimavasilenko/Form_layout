@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InDevLab</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,
+    700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+          integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous"/>
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <a href="javascript:void(0);" class="logo__link">
+            <img src="components/header/img/logo.png" alt="logo" class="logo__img">
+        </a>
+    </div>
+</header>
+<div class="content">
+    <form action="javascript:void(0);" class="form" name="order-name">
+        <div class="container container--form">
+            <section class="form__header">
+                <div class="form__header-wrapper order">
+                    <div class="order__information">
+                        <h3 class="order__information-title">Your order</h3>
+                        <ul class="order__list reset-list">
+                            <li class="order__list-item">
+                                <span class="item-title">Items</span>
+                                <span class="item-content">2 documents</span>
+                            </li>
+                            <li class="order__list-item">
+                                <span class="item-title">Details</span>
+                                <span class="item-content">2 languages</span>
+                            </li>
+                            <li class="order__list-item">
+                                <span class="item-title">Price</span>
+                                <span class="item-content">$ 696.06</span>
+                            </li>
+                            <li class="order__list-item">
+                                <span class="item-title">Delivery</span>
+                                <span class="item-content">48 hours</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order_submit">
+                        <div class="order_submit-wrapper">
+                            <button type="submit" class="order__btn--order btn">Place order</button>
+                            <button type="button" class="order__btn--print btn">Print a quote</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__header-wrapper contacts">
+                    <h4 class="contacts__title">Help center</h4>
+                    <p class="contacts__text">
+                        If you need assistance while placing your order,contact one of you beloved Project Manager by
+                        phone
+                        or email.
+                    </p>
+                    <span>
+                        <a class="contacts__link reset-link" href="tel:+9710555555">+971 (0) 555 555</a>
+                    </span>
+                    <span>
+                        <a class="contacts__link reset-link" href="mailto:help@qtest.com">help@qtest.com</a>
+                    </span>
+                </div>
+            </section>
+            
+            <section class="form__content">
+                <section class="form__document-type form-section">
+                    <div class="document-type__heading-wrapper">
+                        <h2 class="document-type__heading">select what you want to translate</h2>
+                    </div>
+                    <ul class="document-type__list reset-list">
+                        <li class="document-type__item">
+                            <input class="document-type__input hide-input" id="input-website" type="radio"
+                                   name="document-type" value="website"/>
+                            <label for="input-website" class="item-label primary-border">
+                                <img src="components/form/document-type/img/web-page.png" alt="document-type"
+                                     class="item-img"/>
+                                <span>Website</span>
+                            </label>
+                        </li>
+                        <li class="document-type__item">
+                            <input class="document-type__input hide-input" id="input-documents" type="radio"
+                                   name="document-type" value="documents"/>
+                            <label for="input-documents" class="item-label primary-border">
+                                <img src="components/form/document-type/img/document.png" alt="document-type"
+                                     class="item-img"/>
+                                <span>Documents</span>
+                            </label>
+                        </li>
+                        <li class="document-type__item">
+                            <input class="document-type__input hide-input" id="input-social" type="radio"
+                                   name="document-type" value="social"/>
+                            <label for="input-social" class="item-label primary-border">
+                                <img src="components/form/document-type/img/social.png" alt="document-type"
+                                     class="item-img"/>
+                                <span>Social account</span>
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section class="form__upload form-section">
+                    <div class="upload__heading-wrapper">
+                        <h2 class="upload__heading form-section__heading">
+                            Upload your documents
+                            <span class="upload__subtitle">(Doc, Docx, Text, PDF, Markdown)</span>
+                        </h2>
+                    </div>
+                    <div class="upload__input-wrapper">
+                        <input type="file" class="upload__input hide-input" id="upload__input"/>
+                        <label for="upload__input" class="upload__input-label reset-input icon-element">
+                            Upload a new file
+                        </label>
+                    </div>
+                </section>
+                <section class="form__language form-section">
+                    <h2 class="language__heading form-section__heading">
+                        Choose your languages pairings
+                    </h2>
+                    <div class="language__select-wrapper">
+                        <span class="language__select-text">from</span>
+                        <label>
+                            <select class="chosen-select language__select">
+                                <option>English</option>
+                                <option>Ukrainian</option>
+                                <option>Russian</option>
+                                <option>French</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="language__select-wrapper">
+                        <span class="language__select-text language__select-text--right">to</span>
+                        <label>
+                            <select class="chosen-select language__select">
+                                <option>Choose a language</option>
+                            </select>
+                        </label>
+                    </div>
+                </section>
+                <div class="form__content-wrapper">
+                    <section class="form__tone form-section">
+                        <h2 class="tone__heading form-section__heading">
+                            Select your desired tone
+                        </h2>
+                        <div class="form__input-wrapper">
+                            <input type="radio" name="tone" id="tone__input--friendly" class="tone__input hide-input"/>
+                            <label for="tone__input--friendly"
+                                   class="tone__input-label reset-input primary-border icon-element tone__input-label--1"
+                            >Friendly/Casual
+                            </label>
+                            <input type="radio" name="tone" value="corporate" id="tone__input--corporate"
+                                   class="tone__input hide-input"/>
+                            <label for="tone__input--corporate"
+                                   class="tone__input-label reset-input primary-border icon-element tone__input-label--2"
+                            >Corporate/Pro</label>
+                            <input type="radio" name="tone" value="media" id="tone__input--media"
+                                   class="tone__input hide-input"/>
+                            <label for="tone__input--media"
+                                   class="tone__input-label reset-input primary-border icon-element tone__input-label--3"
+                            >Media/Formal</label>
+                        </div>
+                    </section>
+                    
+                    <section class="form__urgency form-section">
+                        <h2 class="urgency__heading form-section__heading">
+                            Tell us how urgent this work is
+                        </h2>
+                        <div class="urgency__input-wrapper">
+                            <input type="range" class="urgency__input hide-input" id="urgency__input"/>
+                            <label for="urgency__input" class="urgency__input-label">
+                                <span>I got time</span>
+                                <span>Average</span>
+                                <span>Yesterday</span>
+                            </label>
+                        </div>
+                        <div class="urgency__input-description">
+                            <h4 class="input-description-title">Timeline info</h4>
+                            <p class="input-description-text">
+                                With an <span class="urgency__input-value">average</span> timeline set up, our expert
+                                translator can take a
+                                reasonable amount of time perfecting your translation.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <section class="form__payment form-section">
+                    <h2 class="payment__heading form-section__heading">
+                        Sign up and choose a payment method
+                    </h2>
+                    <p class="payment__subtitle">
+                        Already have an account with us? <a href="#" class="payment__link reset-link">Sign in</a>.
+                    </p>
+                    <div class="payment__input-wrapper">
+                        <label for="payment__input--fullname" class="payment__input-label">
+                            <span class="payment__input-title">full name</span>
+                            <input
+                                    type="text"
+                                    class="payment__input reset-input"
+                                    id="payment__input--fullname"
+                                    placeholder="Enter your name"
+                                    title="Minimum length is 8 characters"
+                                    required
+                            />
+                            <div class="payment__input-icon"></div>
+                        </label>
+                    </div>
+                    <div class="payment__input-wrapper registration">
+                        <label for="payment__input--email" class="payment__input-label">
+                            <span class="payment__input-title">Email address</span>
+                            <input
+                                    type="email"
+                                    class="payment__input reset-input"
+                                    id="payment__input--email"
+                                    placeholder="Enter your email"
+                                    required
+                            />
+                            <div class="payment__input-icon"></div>
+                        </label>
+                        <label for="payment__input--password" class="payment__input-label">
+                            <span class="payment__input-title">Choose a password</span>
+                            <input
+                                    type="password"
+                                    class="payment__input reset-input"
+                                    id="payment__input--password"
+                                    placeholder="Create your password"
+                                    title="It must contain at least 1 number, 1 uppercase letter. Do not use any whitespace characters"
+                                    required
+                            />
+                            <div class="payment__input-icon"></div>
+                        </label>
+                    </div>
+                    <div class="payment__input-wrapper card">
+                        <label for="payment__input--card-number" class="payment__input-label">
+                            <span class="payment__input-title">Card number</span>
+                            <input
+                                    type="text"
+                                    class="payment__input reset-input"
+                                    id="payment__input--card-number"
+                                    placeholder="0000000000000000"
+                                    title="Enter your card number"
+                            />
+                            <div class="payment__input-icon--card"></div>
+                        </label>
+                        <label for="payment__input--card-date" class="payment__input-label">
+                            <span class="payment__input-title">Expiry date</span>
+                            <input
+                                    type="text"
+                                    class="payment__input reset-input"
+                                    id="payment__input--card-date"
+                                    placeholder="MM/YY"
+                                    title="Enter your card expiry date"
+                            />
+                        </label>
+                        <label for="payment__input--card-code" class="payment__input-label">
+                            <span class="payment__input-title">code</span>
+                            <input
+                                    type="password"
+                                    class="payment__input reset-input"
+                                    id="payment__input--card-code"
+                                    title="Enter your card CVV code"
+                            />
+                        </label>
+                    </div>
+                </section>
+                
+                <section class="form__footer form-section">
+                    <div class="footer__input-wrapper">
+                        <input type="checkbox" class="footer__input hide-input" id="footer__input"
+                               name="terms-conditions"/>
+                        <label for="footer__input" class="footer__input-label">
+                            <span class="footer__input-checkmark"></span>
+                            <p class="footer__text">I agree to the <a href="#" class="footer_link reset-link">Terms
+                                &#38; Conditions</a></p>
+                        </label>
+                    </div>
+                    <div class="order_submit-wrapper order__submit-wrapper--footer">
+                        <button type="submit" class="order__btn--order btn btn--footer">Place order</button>
+                        <button type="button" class="order__btn--print btn btn--footer">Print a quote</button>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

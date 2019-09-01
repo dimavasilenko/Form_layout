@@ -7,7 +7,7 @@
 }
 
 .urgency__heading:before {
-  content: '4';
+  content: "4";
 }
 
 .urgency__input-wrapper {
@@ -25,8 +25,9 @@
 /*  margin: 0 0 20px 20px;*/
 /*}*/
 
-.urgency__input:after, .urgency__input:before {
-  content: '';
+.urgency__input:after,
+.urgency__input:before {
+  content: "";
   position: absolute;
   display: block;
   width: 10px;
@@ -48,7 +49,7 @@
 
 .urgency__input-label span {
   text-transform: uppercase;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
@@ -68,14 +69,14 @@
 
 .input-description-title:before {
   position: absolute;
-  content: '\f05a';
-  font-family: 'Font Awesome 5 Free', serif;
+  content: "\f05a";
+  font-family: "Font Awesome 5 Free", serif;
   font-weight: 900;
   left: -20px;
 }
 
 .input-description-text {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 0;
 }

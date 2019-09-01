@@ -1,5 +1,5 @@
 .payment__heading:before {
-  content: '5';
+  content: "5";
 }
 
 .reset-link {
@@ -34,7 +34,7 @@
 .payment__input-title {
   text-transform: uppercase;
   padding: 0 0 10px 10px;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   width: 80%;
 }
@@ -45,8 +45,8 @@
   padding: 10px 20px;
 }
 
-.payment__input:invalid+.payment__input-icon:before {
-  content: '';
+.payment__input:invalid + .payment__input-icon:before {
+  content: "";
   display: block;
   position: absolute;
   background: url(img/close.svg);
@@ -66,7 +66,7 @@
 }
 
 .payment__input-icon--card:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   background: url(img/visa.svg);

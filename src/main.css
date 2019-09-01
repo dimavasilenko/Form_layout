@@ -1,0 +1,132 @@
+@import "variables.css";
+@import "components/header/header.css";
+@import "components/form/header/header.css";
+@import "components/form/document-type/document-type.css";
+@import "components/form/language/language.css";
+@import "components/form/payment/payment.css";
+@import "components/form/tone/tone.css";
+@import "components/form/urgency/urgency.css";
+@import "components/form/payment/payment.css";
+@import "components/form/upload/upload.css";
+@import "components/form/footer/footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--base-font);
+  font-size: 16px;
+  color: var(--primary-text);
+}
+
+.content {
+  flex: 1 0;
+  background: var(--page-background);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container--form {
+  background: #fff;
+  border: 1px solid var(--headline-text);
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--headline-text);
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background: none;
+  border: 1px solid var(--primary-text);
+  border-radius: 3px;
+  text-transform: uppercase;
+  min-width: 167px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: var(--primary);
+  transition: 0.5s;
+}
+
+.form__content {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.form__content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reset-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reset-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.reset-input,
+.reset-select {
+  background: var(--form-element-background);
+  color: var(--primary-text);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 10px 40px;
+}
+
+.container {
+  width: 960px;
+}
+
+.form-section__heading {
+  position: relative;
+  font-weight: 400;
+}
+
+.form-section__heading:before {
+  position: absolute;
+  border: 1px solid #6e768f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 1.7;
+  font-weight: 700;
+  text-align: center;
+  left: -55px;
+  top: -10px;
+}
+
+.icon-element:before {
+  font-family: "Font Awesome 5 Free", serif;
+  font-weight: 900;
+  padding-right: 10px;
+}

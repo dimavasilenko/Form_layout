@@ -30,7 +30,7 @@
 }
 
 .footer__text {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .footer_link {
@@ -80,8 +80,8 @@
   color: inherit;
 }
 
-.footer__input:checked+.footer__input-label .footer__input-checkmark {
-  background-color: rgba(95,202,198,.5);
+.footer__input:checked + .footer__input-label .footer__input-checkmark {
+  background-color: rgba(95, 202, 198, 0.5);
 }
 
 .footer__input-checkmark {
@@ -93,13 +93,13 @@
   position: relative;
 }
 
-.footer__input:checked+.footer__input-label .footer__input-checkmark:before {
-  content: '\f00c';
+.footer__input:checked + .footer__input-label .footer__input-checkmark:before {
+  content: "\f00c";
   position: absolute;
   bottom: 0;
   color: #6e768f;
   font-size: 1.375rem;
-  font-family: 'Font Awesome 5 Free', serif;
+  font-family: "Font Awesome 5 Free", serif;
   font-weight: 900;
   opacity: 1;
 }

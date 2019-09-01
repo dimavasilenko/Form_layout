@@ -48,7 +48,7 @@
   margin-inline-end: 15px;
 }
 
-.item-label:checked{
+.item-label:checked {
   z-index: -10;
 }
 

@@ -67,8 +67,8 @@
 .order__information-title:before,
 .contacts__title:before {
   position: absolute;
-  content: '\f328';
-  font-family: 'Font Awesome 5 Free', serif;
+  content: "\f328";
+  font-family: "Font Awesome 5 Free", serif;
   font-weight: 900;
   left: -20px;
 }
@@ -107,7 +107,7 @@
 }
 
 .contacts__title:before {
-  content: '\f1cd';
+  content: "\f1cd";
   font-weight: 400;
 }
 
