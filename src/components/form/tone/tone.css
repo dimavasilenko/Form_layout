@@ -1,0 +1,53 @@
+.form__tone {
+  width: 90%;
+}
+
+.tone__heading {
+  content: '3';
+  margin-left: 100px;
+}
+
+.tone__heading:before {
+  content: '3';
+}
+
+.form__input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tone__input-label {
+  width: 240px;
+  height: 45px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-block-start: 20px !important;
+  margin-block-end: 30px !important;
+  margin-inline-start: 100px;
+}
+
+.tone__input-label:hover {
+  cursor: pointer;
+  border-color: var(--checked-input);
+}
+
+.tone__input-label--1::before {
+  content: '\f086';
+}
+
+.tone__input-label--2::before {
+  content: '\f0f2';
+}
+
+.tone__input-label--3::before {
+  content: '\f0a1';
+}
+
+.hide-input
+{
+  display: none;
+}

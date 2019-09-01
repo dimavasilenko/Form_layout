@@ -1,0 +1,11 @@
+:root {
+  --base-font: 'Roboto', sans-serif;
+  --primary: #5fcac6;
+  --primary-input: #edbe76;
+  --page-background: #eceef4;
+  --form-element-background: #f7f7fa;
+  --checked-input: #76a7e1;
+  --border: #d7d9e0;
+  --primary-text: #a0a6b8;
+  --headline-text: #6e768f;
+}

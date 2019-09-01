@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  background: var(--page-background);
+  padding: 15px 0;
+}
+
+.logo__link {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.logo__img {
+  width: 100%;
+  opacity: 0.1;
+  transition: 0.5s linear;
+}
+
+.logo__img:hover {
+  opacity: 0.8;
+  transition: 0.5s linear;
+}

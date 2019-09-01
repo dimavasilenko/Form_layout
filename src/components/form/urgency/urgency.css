@@ -1,0 +1,87 @@
+.form__urgency {
+  width: 65%;
+}
+
+.urgency__heading {
+  padding-bottom: 20px;
+}
+
+.urgency__heading:before {
+  content: '4';
+}
+
+.urgency__input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.urgency__input {*/
+/*  width: 90%;*/
+/*  height: 10px;*/
+/*  border-radius: 5px;*/
+/*  background: #f7f7fa;*/
+/*  outline: 0;*/
+/*  position: relative;*/
+/*  margin: 0 0 20px 20px;*/
+/*}*/
+
+.urgency__input:after, .urgency__input:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #a0a6b8;
+}
+
+.urgency__input:before {
+  left: 0;
+}
+
+.urgency__input-label {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.urgency__input-label span {
+  text-transform: uppercase;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.urgency__input-description {
+  width: 100%;
+  height: 120px;
+  overflow: auto;
+  padding: 10px 25px 10px 30px;
+  border: 1px solid #d7d9e0;
+  border-radius: 3px;
+}
+
+.input-description-title {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.input-description-title:before {
+  position: absolute;
+  content: '\f05a';
+  font-family: 'Font Awesome 5 Free', serif;
+  font-weight: 900;
+  left: -20px;
+}
+
+.input-description-text {
+  font-size: .875rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.urgency__input-value {
+  text-transform: uppercase;
+  color: #edbe76;
+  font-weight: 700;
+}
