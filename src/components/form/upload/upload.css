@@ -6,8 +6,8 @@
 }
 
 .upload__heading {
-  margin-inline-start: 100px;
   position: relative;
+  margin-left: 100px;
 }
 
 .upload__heading:before {

@@ -1,13 +1,8 @@
 .form__footer {
   flex-direction: row;
   justify-content: flex-end;
-  margin-block-start: 7%;
-}
-
-.footer__input-wrapper {
-  margin-right: 30px;
-  width: 30%;
-  margin-inline-start: 25%;
+  display: flex;
+  padding-right: 110px;
 }
 
 .footer__input {
@@ -18,6 +13,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 30px;
+  padding-top: 10px;
 }
 
 .footer__input-checkmark {
@@ -48,14 +45,10 @@
 .order__submit-wrapper--footer {
   align-items: center;
   justify-content: center;
-}
-
-.order_submit-wrapper {
+  margin: 0 -45px 0 30px;
   height: 100%;
   display: flex;
   width: 40%;
-  margin-inline-start: 55%;
-  margin-top: -7%;
 }
 
 .btn--footer:first-child {

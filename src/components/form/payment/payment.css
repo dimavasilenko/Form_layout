@@ -7,8 +7,7 @@
 }
 
 .payment__subtitle {
-  margin: 0 0 50px;
-  margin-inline-start: 100px;
+  margin: 10px 0 45px 100px;
 }
 
 .payment__link {
@@ -87,7 +86,5 @@
 }
 
 .payment__heading {
-  margin-inline-start: 100px;
-  margin-block-end: 50px;
-  margin-top: 50px;
+  margin: 50px 0 10px 100px;
 }

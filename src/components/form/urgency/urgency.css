@@ -15,16 +15,6 @@
   flex-direction: column;
 }
 
-/*.urgency__input {*/
-/*  width: 90%;*/
-/*  height: 10px;*/
-/*  border-radius: 5px;*/
-/*  background: #f7f7fa;*/
-/*  outline: 0;*/
-/*  position: relative;*/
-/*  margin: 0 0 20px 20px;*/
-/*}*/
-
 .urgency__input:after,
 .urgency__input:before {
   content: "";
