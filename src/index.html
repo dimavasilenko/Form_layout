@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>InDevLab</title>
+    <title>Form_layout</title>
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,
     700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext"
@@ -111,11 +111,27 @@
                         </h2>
                     </div>
                     <div class="upload__input-wrapper">
-                        <input type="file" class="upload__input hide-input" id="upload__input"/>
+                        <input type="file"
+                               class="upload__input hide-input"
+                               id="upload__input"
+                               name="upload"
+                               accept=".doc,.docx,.text,.pdf,.markdown"
+                               required/>
                         <label for="upload__input" class="upload__input-label reset-input icon-element">
                             Upload a new file
                         </label>
                     </div>
+                    <table class="upload__table" hidden="hidden">q
+                        <thead>
+                        <tr>
+                            <th>File name</th>
+                            <th>File size</th>
+                            <th>Number of words</th>
+                            <th>Remove</th>
+                        </tr>
+                        </thead>
+                        <tbody class="upload__table-body"></tbody>
+                    </table>
                 </section>
                 
                 <section class="form__language form-section">
@@ -171,7 +187,7 @@
                             Tell us how urgent this work is
                         </h2>
                         <div class="urgency__input-wrapper">
-                            <input type="range" class="urgency__input hide-input" id="urgency__input"/>
+                            <input type="range" class="urgency__input" id="urgency__input" min="0" max="2" step="1"/>
                             <label for="urgency__input" class="urgency__input-label">
                                 <span>I got time</span>
                                 <span>Average</span>
@@ -287,6 +303,7 @@
         </div>
     </form>
 </div>
+<script src="components/form/upload/upload.js"></script>
 </body>
 </html>
 

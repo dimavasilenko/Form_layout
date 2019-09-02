@@ -37,16 +37,38 @@
 }
 
 .upload__table {
-  width: 100%;
+  width: 85%;
   table-layout: fixed;
   border: 1px solid var(--border);
   border-radius: 3px;
   padding: 10px;
   font-size: 14px;
+  margin-left: 10%;
+  margin-bottom: 65px;
+}
+
+thead {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 5px 0;
+}
+
+th:last-child{
+  padding-left: 75px;
+}
+
+td:last-child {
+  padding-left: 95px;
 }
 
 .upload__input-label {
-  margin-inline-start: 100px;
+  margin-left: 100px;
 }
 
 .upload__subtitle {
@@ -69,3 +91,14 @@ input:checked + .primary-border:after {
 input:checked + .primary-border {
   border: 5px solid #76a7e1;
 }
+
+.remove-icon:hover {
+  cursor: pointer;
+  color: var(--headline-text);
+}
+
+.file-icon {
+  padding-right: 10px;
+  font-size: 16px;
+}
+
